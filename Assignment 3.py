@@ -1,15 +1,15 @@
 # ASSIGNMENT 3
 ## 1.  Write a Python function to find the maximum of three numbers
 
-# def max_num(x,y,z): # Defining new function
-#     return max(x,y,z)
-#
-# num1 = int(input("Enter the first Number : "))
-# num2 = int(input("Enter the Second Number : "))
-# num3 = int(input("Enter the Third Number : "))
-#
-# result = max_num(num1,num2,num3)
-# print (f"The maximum number of {num1} ,{num2} and {num3} is {result}") # Output : The largest number of 20 ,30 and 40 is 40
+def max_num(x,y,z): # Defining new function
+    return max(x,y,z)
+
+num1 = int(input("Enter the first Number : "))
+num2 = int(input("Enter the Second Number : "))
+num3 = int(input("Enter the Third Number : "))
+
+result = max_num(num1,num2,num3)
+print (f"The maximum number of {num1} ,{num2} and {num3} is {result}") # Output : The largest number of 20 ,30 and 40 is 40
 
 
 # # 2. Write a Python function to multiply all the numbers in a list.
@@ -147,17 +147,6 @@
 ## 10. Write a Python function that checks whether a passed string is a palindrome or not.
 # Note: A palindrome is a word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run
 
-def is_palindrome(s):
-    """Check if the given string is a palindrome."""
-    # Normalize the string by removing spaces and converting to lowercase
-    normalized_str = s.replace(" ", "").lower()
-    # Check if the string is equal to its reverse
-    return normalized_str == normalized_str[::-1]
-
-# Example usage
-input_string = "Python Gurukul training Program"
-result = is_palindrome(input_string)
-print(f"The string '{input_string}' is a palindrome: {result}.")
 
 
 
